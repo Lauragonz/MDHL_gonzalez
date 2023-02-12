@@ -6,35 +6,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
             rel="shortcut icon"
-            href="./assets/Logo_Mighty_ducks-01.ico"
+            href="../assets/Logo_Mighty_ducks-01.ico"
             type="image/x-icon"
         />
+        <link rel="stylesheet" href="./styles/style.css" />
         <title>Mighty Ducks Hockey Leaguet</title>
     </head>
     <body>
         <header>
-            <figure>
+            <h1>Mighty Ducks Hockey League</h1>
+            <nav>
+                <a class="nav_link" title="Home" href="./index.html">Home</a>
+                <a class="nav_link" title="About MDHL" href="./about.html"
+                    >About MDHL</a
+                >
+                <a
+                    class="nav_link active_link"
+                    title="Contact"
+                    href="./contact.html"
+                    >Contact</a
+                >
+            </nav>
+            <div class="banner">
+                <h2>Contact</h2>
+            </div>
+        </header>
+        <main>
+            <div class="div_logo">
                 <img
-                    src="./assets/Logo_Mighty_ducks-01.png"
+                    class="logo_contact"
+                    src="./assets/img/Logo_Mighty_ducks-01.png"
                     alt="Mighty Ducks Hockey League"
                     height="150"
                 />
-            </figure>
-            <h1>Mighty Ducks Hockey League</h1>
-            <nav>
-                <a title="Home" href="./index.html">Home</a>
-                <a title="About MDHL" href="./about.html">About MDHL</a>
-                <a title="Contact" href="./contact.html">Contact</a>
-            </nav>
-        </header>
-        <main>
-            <figure>
-                <img src="./assets/hockey_3.jpg" alt="hockey_3" height="150" />
-            </figure>
-            <div>
+            </div>
+            <div class="div_contact">
                 <p>
                     Please email us at
-                    <a title="email" href="#">mdhl@chihockey.org</a>
+                    <a class="cont_email" href="#">
+                        mdhl@chihockey.org
+                    </a>
                 </p>
                 <p>We reply to your email as soon as we can.</p>
             </div>

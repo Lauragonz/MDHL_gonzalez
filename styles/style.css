@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #090446;
+}
+
+/*Header*/
+header {
+    height: 45vh;
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 0.3rem 0;
+}
+
+nav {
+    position: absolute;
+    right: 8%;
+    top: 5%;
+}
+
+.nav_link {
+    display: inline-block;
+    width: 8rem;
+    background-color: #416165;
+    padding: 0.5rem;
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 8px -9px 5px -3px #090446;
+}
+
+.active_link {
+    background-color: #00698f;
+}
+
+.banner {
+    box-sizing: border-box;
+    background-image: url("../assets/img/design2_image1.jpg");
+    height: 40vh;
+    background-size: cover;
+}
+
+.banner h2 {
+    text-align: center;
+    position: relative;
+    top: 225px;
+    padding: 0.2rem 0;
+    border-top: 3px solid #090446;
+    border-bottom: 3px solid #090446;
+}
+
+
+/* Main*/
+/*Shared*/
+main {
+    position: relative;
+    top: 35px;
+}
+.div_home, .div_about, .div_contact {
+    display: inline;
+    padding-left: 2rem;
+    margin-right: 3rem;
+}
+
+.section_home, .section_about {
+    display: inline-block;
+    padding-left: 2rem;
+    width: 70%;
+}
+
+
+/*Main_home*/
+
+.galery_home {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+main figure {
+    display: inline;
+    margin: 0.2rem 2rem;
+}
+
+.galery_img {
+    height: 8rem;
+    border: 2px solid #090446;
+}
+
+/*Main_about*/
+.section_about {
+    padding: 0.8rem;
+}
+
+.logo_about {
+    position: relative;
+    bottom: 100px;
+}
+
+/*Main_contact*/
+.div_logo, .div_contact {
+    display: inline-block;
+}
+
+.div_contact {
+    position: relative;
+    bottom: 80px;
+}
+
+.cont_email {
+    color: #416165;
+}

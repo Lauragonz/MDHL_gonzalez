@@ -6,33 +6,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
             rel="shortcut icon"
-            href="../assets/Logo_Mighty_ducks-01.ico"
+            href="../assets/img/Logo_Mighty_ducks-01.ico"
             type="image/x-icon"
         />
+        <link rel="stylesheet" href="./styles/style.css" />
         <title>Mighty Ducks Hockey Leaguet</title>
     </head>
     <body>
         <header>
-            <figure>
+            <h1>Mighty Ducks Hockey League</h1>
+            <nav>
+                <a class="nav_link active_link" title="Home" href="./index.html">Home</a>
+                <a class="nav_link" title="About MDHL" href="./about.html">About MDHL</a>
+                <a class="nav_link" title="Contact" href="./contact.html">Contact</a>
+            </nav>
+            <div class="banner">
+                <h2>Upcoming Events</h2>
+            </div>
+        </header>
+        <main>
+            <div class="div_home">
                 <img
-                    src="./assets/Logo_Mighty_ducks-01.png"
+                    src="./assets/img/Logo_Mighty_ducks-01.png"
                     alt="Mighty Ducks Hockey League"
                     height="150"
                 />
-            </figure>
-            <h1>Mighty Ducks Hockey League</h1>
-            <nav>
-                <a title="Home" href="./index.html">Home</a>
-                <a title="About MDHL" href="./about.html">About MDHL</a>
-                <a title="Contact" href="./contact.html">Contact</a>
-            </nav>
-        </header>
-        <main>
-            <figure>
-                <img src="./assets/hockey_1.jpg" alt="hockey_1" height="150" />
-            </figure>
-            <section>
-                <h2>Upcoming Events</h2>
+            </div>
+            <section class="section_home">
                 <article>
                     <h4>August 4</h4>
                     <p>MDHL Fund</p>
@@ -49,6 +49,18 @@
                     </p>
                 </article>
             </section>
+
+            <div class="galery_home">
+                <figure>
+                    <img class="galery_img" src="./assets/img/hockey_1.jpg" alt="hockey_1">
+                </figure>
+                <figure>
+                    <img class="galery_img" src="./assets/img/hockey_2.jpg" alt="hockey_2">
+                </figure>
+                <figure>
+                    <img class="galery_img" src="./assets/img/hockey_3.jpg" alt="hockey_3">
+                </figure>
+            </div>
         </main>
     </body>
 </html>
