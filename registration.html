@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            rel="shortcut icon"
+            href="./assets/img/Logo_Mighty_ducks-01.ico"
+            type="image/x-icon">
+        <link rel="stylesheet" href="./styles/style.css">
+        <title>Mighty Ducks Hockey Leaguet</title>
+    </head>
+    <body>
+        <header>
+            <section class="container_header1">
+                <img
+                    class="logo"
+                    src="./assets/img/Logo_Mighty_ducks-01.png"
+                    alt="Mighty Ducks Hockey League">
+                <h1>
+                    Mighty Ducks Hockey League
+                </h1>
+                <img
+                    class="banner"
+                    src="./assets/img/design2_image1.jpg"
+                    alt="banner">
+            </section>
+
+            <nav class="container_header2">
+                <a class="nav_link" title="Home" href="./index.html">
+                    Home
+                </a>
+                <a class="nav_link" title="About MDHL" href="./about.html">
+                    About MDHL
+                </a>
+                <a class="nav_link" title="Game info" href="./game_info.html">
+                    Game Information MDHL
+                </a>
+                <a class="nav_link" title="Rules" href="./rules.html">
+                    Rules
+                </a>
+                <a class="nav_link active" title="Registration" href="#">
+                    Registration Form
+                </a>
+                <a class="nav_link active" title="Contact" href="./contact.html">
+                    Contact
+                </a>
+            </nav>
+        </header>
+        <main>
+            <h2>Registration Form</h2>
+            <form class="form" action="./show_data.html">
+                <div class="form_cont">
+                    <div class="container">
+                        <label class="choices">
+                            Player's First Name: 
+                            <input title="fname" name="fname" type="text">
+                        </label>
+                        <label>
+                            Last Name: 
+                            <input title="lname" name="lname" type="text">
+                        </label>
+                    </div>
+                    <div class="container">
+                        <label>
+                            Street Address:
+                            <input title="adress" name="adress" type="text">
+                        </label>
+                    </div>
+                    <div class="container">
+                        <label class="choices">
+                            City: 
+                            <input title="city" name="city" type="text">
+                        </label>
+                        <label>
+                            Zip Code: 
+                            <input title="zipCode" type="number" name="zip">
+                        </label>
+                    </div>
+                    <div class="container">
+                        <label>
+                            Birth Date (mm/dd/yyyy): 
+                            <input title="bDate" type="date" name="bDate">
+                        </label>
+                        <div class="gender">
+                            <p>Gender:</p>
+                            <label class="genderFM" >
+                            Female: 
+                            <input title="female" type="radio" name="female">
+                            </label>
+                            <label class="genderFM" >
+                                Male: 
+                                <input title="male" type="radio" name="male">
+                                </label>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <p>Grade: </p>
+                        <label class="choices">
+                            <input title="presc" type="radio" name="presc">
+                            Pre-School
+                        </label>
+                        <label class="choices">
+                            <input title="1st" type="radio" name="1st">
+                            1st
+                        </label>
+                        <label class="choices">
+                            <input title="2nd" type="radio" name="2nd">
+                            2nd
+                        </label>
+                        <label>
+                            <input title="3rd" type="radio" name="3rd">
+                            3rd
+                        </label>
+                        <label class="choices">
+                            <input title="4th" type="radio" name="4th">
+                            4th
+                        </label>
+                        <label>
+                            <input title="5th" type="radio" name="5th">
+                            5th
+                        </label>
+                    </div>
+                </div>
+                
+
+                <div class="">
+                    <div class="questions">
+                        <h3>Which elementary school do you live near?</h3>
+                        <h5>Closest School</h5>
+                        <div>
+                            <label class="choices">
+                                <input type="radio" name="ajK">
+                                AJ Katzenmaier
+                            </label>
+                            <label class="choices">
+                                <input type="radio" name="gb">
+                                Greenbay
+                            </label>
+                            <label class="choices">
+                                <input type="radio" name="hay">
+                                Howard A Yeager
+                            </label>
+                            <label class="choices">
+                                <input type="radio" name="mph">
+                                Marjorie P Hart
+                            </label>
+                            <label class="choices">
+                                <input type="radio" name="ne">
+                                North Elementary
+                            </label>
+                            <label class="choices">
+                                <input type="radio" name="se">
+                                South Elementary
+                            </label>
+                        </div>
+                    </div>
+                    <div class="questions">
+                        <h3>What position(s) do you normally play? (check all that apply)</h3>
+                        <div>
+                            <label class="choices">
+                                <input type="checkbox" name="forward">
+                                Forward
+                            </label>
+                            <label class="choices">
+                                <input type="checkbox" name="defense">
+                                Defense
+                            </label>
+                            <label class="choices">
+                                <input type="checkbox" name="midfield">
+                                Midfield
+                            </label>
+                            <label class="choices">
+                                <input type="checkbox" name="goalkeeper">
+                                Goalkeeper
+                            </label>
+                        </div>
+                    </div>
+                    <div class="questions">
+                        <h3>Uniform Size</h3>
+                        <div >
+                            <label class="choices">
+                                <input type="radio" name="ys">
+                                Youth Smal
+                            </label>
+                            <label class="choices">
+                                <input type="radio" name="ym">
+                                Youth Medium
+                            </label>
+                            <label class="choices">
+                                <input type="radio" name="yl">
+                                Youth Large
+                            </label>
+                            <label class="choices">
+                                <input type="radio" name="s">
+                                Small
+                            </label>
+                            <label class="choices">
+                                <input type="radio" name="m">
+                                Medium
+                            </label>
+                            <label class="choices">
+                                <input type="radio" name="l">
+                                Large
+                            </label>
+                            <label class="choices">
+                                <input type="radio" name="el">
+                                Extra-Large
+                            </label>
+                        </div>
+                    </div>
+                </div>questions
+                
+
+                <h3>Permission to Play</h3>
+                <p>l, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation</p>
+                <p>By signing below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
+
+                <div class="agree">
+                    <label class="choices">
+                    Parent/GuardianSignature:
+                    <input title="sign" type="text" name="signature">
+                    </label>
+                    <label>
+                        Date: 
+                        <input type="date" name="dateS">
+                    </label>
+                </div>
+                
+                <button title="submit" type="submit">
+                        Submit
+                </button>
+                
+            </form>
+        </main>
+    </body>
+</html>

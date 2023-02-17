@@ -8,6 +8,7 @@
       {
         "nested-interactive": "off"
       }
-    ]
+    ],
+    "no-inline-styles": "off"
   }
 }

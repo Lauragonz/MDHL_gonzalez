@@ -128,15 +128,136 @@ h2 {
     font-weight: bolder;
 }
 
+/*Main_gameInfo*/
 
+.gameInfo_title {
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+}
 
-/*Main_contact*/
-.contact-cointainer {
-    /* display: flex;
+.gameInfo_h2 {
+    margin: 1rem 0;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+table td, table th {
+    padding: 0 1rem;
+    margin: 0 0.8rem;
+    border-left: 3px solid #000000;
+    border: 2px solid #000000;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    margin: 0.5rem 0;
+}
+
+.p_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.str {
+    font-weight: bolder;
+}
+
+/*Main_rules*/
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.title h2 {
+    margin: 1rem 0;
+}
+
+.title img {
+    width: 10%;
+}
+
+.titulo {
+    font-weight: bolder;
+    margin-bottom: 0.8rem;
+}
+
+p, ol {
+    margin: 0 2rem;
+}
+
+ul {
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+}
+
+.items {
+    list-style-type: lower-alpha;
+}
+
+/*Main_form*/
+
+.form {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center; */
 }
+
+.form_cont {
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border: 2px solid #7d5507;
+    border-radius: 10px;
+}
+
+.questions {
+    margin: 2rem 0;
+}
+
+.choices {
+    margin-right: 1rem;
+}
+
+form>p {
+    margin: 1rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1.5rem;
+}
+
+.gender {
+    display: flex;
+}
+
+.agree {
+    margin: 3rem 0;
+}
+
+button {
+    width: 5rem;
+    padding: 1rem;
+    background-color: #7d5507;
+    color: #f2f7f7;
+    border-radius: 10px;
+}
+
+/*Main_contact*/
 
 .info {
     margin: 4rem 2rem;
@@ -165,29 +286,8 @@ h2 {
     border: 3px solid #7d5507;
 }
 
-/*task3*/
-.title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 1rem;
-    border-bottom: 3px solid #7d5507;
-}
-
-.title img{
-    width: 8rem;
-}
-
+/*Main_contact*/
 .titulo {
-    font-weight: bolder
-
+    margin: 1rem 0;
 }
 
-.items {
-    list-style-type: lower-latin;
-}
-
-.sin_num {
-    list-style-type: none;
-
-}
